@@ -9,7 +9,7 @@ class Solution {
                 colRem = 0;
             }
         }
-        
+
         for(int i=0;i<m;i++){
             for(int j=1;j<n;j++){
                 if(matrix[i][j]==0){
@@ -19,7 +19,16 @@ class Solution {
             }
         }
 
-        for(int i=1;i<m;i++){
+                for(int j=1;j<n;j++){
+            if(matrix[0][j]==0){
+                for(int a =0;a<m;a++){
+                    matrix[a][j] = 0;
+                }
+            }
+        }
+
+
+        for(int i=0;i<m;i++){
             if(matrix[i][0] == 0){
                 for(int b=0;b<n;b++){
                     matrix[i][b] = 0;
@@ -27,18 +36,6 @@ class Solution {
             }
         }
         
-        for(int j=1;j<n;j++){
-            if(matrix[0][j]==0){
-                for(int a =0;a<m;a++){
-                    matrix[a][j] = 0;
-                }
-            }
-        }
-        if(matrix[0][0]==0){
-            for(int a=0;a<n;a++){
-                matrix[0][a]=0;
-            }
-        }
         if(colRem ==0){
             for(int a =0;a<m;a++){
                 matrix[a][0] = 0;
