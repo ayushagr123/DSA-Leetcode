@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0704-binary-search](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0704-binary-search) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayushagr123/DSA-Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Bit Manipulation
 |  |
@@ -95,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0048-rotate-image) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
