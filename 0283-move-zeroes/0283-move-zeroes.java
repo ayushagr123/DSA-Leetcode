@@ -4,13 +4,10 @@ class Solution {
         int n = nums.length;
         for(int i =0;i<nums.length;i++){
             if(nums[i]!=0){
+                int temp = nums[currIndex];
                 nums[currIndex] = nums[i];
+                nums[i]= temp;
                 currIndex++;
-            }
-        }
-        if(currIndex<n){
-            for(int i = currIndex;i<n;i++){
-                nums[i] =  0;
             }
         }
     }
