@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0704-binary-search](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0704-binary-search) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0189-rotate-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayushagr123/DSA-Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0048-rotate-image) |
+| [0189-rotate-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0189-rotate-array) |
 ## Binary Search
 |  |
 | ------- |
