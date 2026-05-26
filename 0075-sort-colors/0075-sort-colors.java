@@ -3,7 +3,7 @@ class Solution {
         int low = 0;
         int mid = 0;
         int high = nums.length-1;
-        while(low<=mid && mid<=high){
+        while(mid<=high){
             if(nums[mid]==0){
                 swap(nums,mid,low);
                 mid++;
