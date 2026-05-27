@@ -1,38 +1,35 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-        int n= nums.length;
-        int index = -1;
-        for(int i=n-2;i>=0;i--){
-            if(nums[i]<nums[i+1]){
-                index = i;
-                break;
-            }
+        int j= nums.length-1;
+        int min = 0;
+        int minIndex = 0;
+        int i = nums.length-1;
+        int temp = 0;
+
+        //Finds the breakpoint
+        while(j>0 && nums[j]<=nums[j-1]){
+            j--;
         }
-        if(index == -1){
-            //reverse the array
-            for(int i=0;i<n/2;i++){
-                int temp = nums[i];
-                nums[i] = nums[n-i-1];
-                nums[n-i-1]=temp;
+
+        //Finds the minimum number greater than the breakpoint to the right 
+        //of it .
+        if(j>0){
+            while(nums[i]<=nums[j-1]){
+                i--;
             }
-            return;
+            //Swaps the breakpoint with the minimum number
+            int temp1 = nums[j-1];
+            nums[j-1] = nums[i];
+            nums[i] = temp1;
+            
         }
-        for(int i = n-1;i>=index;i--){
-            if(nums[i]>nums[index]){
-                //swap
-                int temp = nums[i];
-                nums[i]=nums[index];
-                nums[index]=temp;
-                break;
-            }
-        }
-        //Reverse the remaining part
-        int start = index+1;
-        int end = n-1;
+        //Reverse rest of the array
+        int start = j;
+        int end = nums.length-1;
         while(start<end){
-            int temp = nums[start];
-            nums[start]=nums[end];
-            nums[end]=temp;
+            int temp2 = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp2;
             start++;
             end--;
         }
