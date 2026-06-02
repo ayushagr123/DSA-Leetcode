@@ -1,27 +1,27 @@
-
-// r-1
-//     C
-//       n-1
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> pascal = new ArrayList<>();
-        // calculate nCr
-        for(int row=1;row<=numRows;row++){
-            List<Integer> pascalInner = new ArrayList<>();
-            int ans =1 ;
-            for(int col=1;col<=row;col++){
-                if(col>1){
-                    ans*=(row-col+1);
-                    ans/=(col-1);
+        //To calculate nCr of a number
+        // n!/(n-r)!*r!
+        //First calculate r factorial
+        //Then calculate n-r factorial
+        // then calculate r factorial
+        //instead of this you can directly calculate nCr using the method as shown in factorial
+        List<List<Integer>> result = new ArrayList<>();
+
+        for(int row = 1;row<=numRows;row++){
+            int m = 1;
+            List<Integer> currRow = new ArrayList<>();
+            for(int col = 1;col<=row;col++){
+                if(col!=1){
+                    m = m*(row-col+1);
+                    m = m/(col-1);
                 }
-                // for(int j=0;j<col-1;j++){
-                //     ans = ans*(row-1-j);
-                //     ans = ans/(j+1);
-                // }
-                pascalInner.add(ans);
+                currRow.add(m);   
             }
-            pascal.add(pascalInner);
+            result.add(currRow);
         }
-        return pascal;
+        return result;
     }
+    //To calculate nCR
+    
 }
