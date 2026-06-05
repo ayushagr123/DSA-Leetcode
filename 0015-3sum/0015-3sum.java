@@ -1,27 +1,26 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        int n = nums.length;
-        Set<List<Integer>> outerSet = new HashSet<>();
         Arrays.sort(nums);
-        //Can be convertd into n 2sum problem
-        int sum ;
-        for(int i =0;i<n;i++){
-            int j =i+1;
-            int k = n-1;
-            while(j<k){
-                sum = nums[i]+nums[j]+nums[k];
-                if(sum>0) k--;
-                else if(sum<0) j++;
-                else {
-                    List<Integer> innerList = Arrays.asList(nums[i],nums[j],nums[k]);
-                    Collections.sort(innerList);
-                    outerSet.add(innerList);
-                    sum = 0;
-                    j++;
-                    k--;
+        List<List<Integer>> outer = new ArrayList<>();
+        for(int k = 0;k<nums.length;k++){
+            if(k>0 && nums[k] == nums[k-1]) continue;
+            int i = k+1;
+            int j = nums.length-1;
+            while(i<j){
+                int sum = nums[i] + nums[j];
+                if(sum == -nums[k]){
+                    List<Integer> inner = new ArrayList<>();
+                    Collections.addAll(inner,nums[i],nums[j],nums[k]);
+                    outer.add(inner);
+                    i++;
+                    j--;
+                    while(i<j && nums[i] == nums[i-1]) i++;
+                    while(i<j && nums[j] == nums[j+1]) j--; 
                 }
-            } 
+                else if(sum<-nums[k]) i++;
+                else j--;
+            }
         }
-        return new ArrayList<>(outerSet);
+        return outer;
     }
 }
