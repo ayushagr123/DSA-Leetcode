@@ -1,20 +1,20 @@
 class Solution {
-    public int searchInsert(int[] arr, int x) {
-        int n = arr.length;
-        int low = 0, high = n - 1;
-        int ans = n; // Default to end if x is greater than all elements
-
-        while (low <= high) {
-            int mid = (low + high) / 2;
-
-            if (arr[mid] >= x) {
-                // Potential answer found, try to go left
+    public int searchInsert(int[] nums, int target) {
+        //Array contains distinct integers
+        //If it is not found it must be inserted just before the upper bound index.
+        int low = 0;
+        int high = nums.length-1;
+        int ans = nums.length;
+        while(low<=high){
+            int mid = (low+high)/2;
+            if(nums[mid]>target) {
                 ans = mid;
-                high = mid - 1;
-            } else {
-                // Go right
-                low = mid + 1;
+                high = mid-1;
             }
+            else if(nums[mid]<target){
+                low = mid+1;
+            }
+            else return mid;
         }
         return ans;
     }
