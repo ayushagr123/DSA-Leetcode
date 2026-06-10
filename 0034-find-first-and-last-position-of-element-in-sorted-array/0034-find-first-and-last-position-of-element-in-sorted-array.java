@@ -1,43 +1,42 @@
 class Solution {
-    //Calculate floor 
-    public int floor(int[] nums,int target){
-       int low = 0;
-       int high = nums.length-1;
-       int first = -1;
+    public int[] searchRange(int[] nums, int target) {
+        int[] occurence = new int[2];
+        int first = -1;
+        int last = -1;
+        int low = 0;
+        int high = nums.length-1;
         while(low<=high){
-            int mid = (low+high)/2;
-            if(nums[mid]<=target){
-                first = mid;
-                low = mid+1;                
-            }
-            else high = mid-1;
-        }
-        return first;   
-    }
-    //Calculate ceil
-    public int ceil(int[] nums,int target){
-       int low = 0;
-       int high = nums.length-1;
-       int last = -1;
-       
-        while(low<=high){
-            int mid = (low+high)/2;
-            if(nums[mid]>=target){
-                last = mid;
+            int mid = low + (high-low)/2;
+            if(nums[mid]>target){
                 high = mid-1;
             }
-            else {
+            else if(nums[mid]<target){
+                low = mid+1;
+            }
+            else{
+                last = mid;
                 low = mid+1;
             }
         }
-        return last;
+        occurence[1] = last;
 
-    }
-    public int[] searchRange(int[] nums, int target) {
-         Solution obj = new Solution();
-         int first = obj.floor(nums,target);
-         int last = obj.ceil(nums,target);
-         if(first==-1 || last == -1 || nums[first]!=nums[last]) return new int[]{-1,-1};
-         else return new int[]{last,first};
+        low = 0;
+        high = last;
+        while(low<=high){
+            int mid = low + (high-low)/2;
+            if(nums[mid]>target){
+                high = mid-1;
+            }
+            else if(nums[mid]<target){
+                low = mid+1;
+            }
+            else{
+                first = mid;
+                high = mid-1;
+            }
+        }
+        occurence[0] = first;
+        return occurence;
+
     }
 }
