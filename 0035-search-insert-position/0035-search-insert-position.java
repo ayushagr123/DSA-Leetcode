@@ -4,11 +4,9 @@ class Solution {
         //If it is not found it must be inserted just before the upper bound index.
         int low = 0;
         int high = nums.length-1;
-        int ans = nums.length;
         while(low<=high){
             int mid = (low+high)/2;
             if(nums[mid]>target) {
-                ans = mid;
                 high = mid-1;
             }
             else if(nums[mid]<target){
@@ -16,6 +14,6 @@ class Solution {
             }
             else return mid;
         }
-        return ans;
+        return low;
     }
 }
