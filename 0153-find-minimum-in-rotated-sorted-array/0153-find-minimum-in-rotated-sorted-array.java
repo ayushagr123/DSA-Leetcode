@@ -3,17 +3,15 @@ class Solution {
         int low = 0;
         int high = nums.length-1;
         int mid = (low+high)/2;
-        while(low<=high){
+        while(low<high){
             mid = (low+high)/2;
-            if(nums[mid]>=nums[low]){ //Left sorted half
-                if(nums[mid]>nums[high])
+            if(nums[mid]>nums[high]){ //Left sorted half
                 low = mid+1;
-                else return nums[low];
             }
             else{ //Right sorted half
                 high = mid;
             }
         }
-        return nums[mid];
+        return nums[low];
     }
 }
