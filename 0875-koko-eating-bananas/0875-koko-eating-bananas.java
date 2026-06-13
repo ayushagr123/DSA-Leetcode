@@ -11,7 +11,8 @@ class Solution {
             int mid = (low+high)/2;
             long currHours = 0;
             for(int i = 0;i<piles.length;i++){
-                currHours += Math.ceil( (double) piles[i]/mid); // or currHours += (piles[i] + mid - 1) / mid;
+                // currHours += Math.ceil( (double) piles[i]/mid); or 
+                currHours += (piles[i] + mid - 1) / mid;
             }
             if(currHours <= h){
                 ans = mid;
