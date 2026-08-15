@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -149,4 +151,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
