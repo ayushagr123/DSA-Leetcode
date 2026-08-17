@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0056-merge-intervals) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0169-majority-element) |
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
@@ -154,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0242-valid-anagram) |
 | [1021-remove-outermost-parentheses](https://github.com/ayushagr123/DSA-Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Stack
