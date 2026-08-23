@@ -1,26 +1,34 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        //Fix one of the element and the problem becomes 2sum
         Arrays.sort(nums);
-        List<List<Integer>> outer = new ArrayList<>();
-        for(int k = 0;k<nums.length;k++){
-            if(k>0 && nums[k] == nums[k-1]) continue;
-            int i = k+1;
-            int j = nums.length-1;
-            while(i<j){
-                int sum = nums[i] + nums[j];
-                if(sum == -nums[k]){
-                    List<Integer> inner = new ArrayList<>();
-                    Collections.addAll(inner,nums[i],nums[j],nums[k]);
-                    outer.add(inner);
-                    i++;
-                    j--;
-                    while(i<j && nums[i] == nums[i-1]) i++;
-                    while(i<j && nums[j] == nums[j+1]) j--; 
+        List<List<Integer>> ans = new ArrayList<>();
+        for(int i = 0;i<nums.length;i++){
+            if(i>0 && nums[i] == nums[i-1]) continue;
+            int j = i+1;
+            int k = nums.length-1;
+            
+            while(j<k){
+                List<Integer> inner = new ArrayList<>();
+                int currSum = (nums[j]+nums[k]);
+                if(currSum>-nums[i]) k--;
+                else if(currSum<-nums[i]) j++;
+                else {
+                    inner.add(nums[i]);
+                    inner.add(nums[j]);
+                    inner.add(nums[k]);
+                    ans.add(inner);
+                    j++;
+                    k--;
+                    while(j<k && nums[j-1] == nums[j]){
+                        j++;
+                    }
+                    while(j<k && nums[k+1] == nums[k]){
+                        k--;
+                    }
                 }
-                else if(sum<-nums[k]) i++;
-                else j--;
             }
         }
-        return outer;
+        return ans;
     }
 }
