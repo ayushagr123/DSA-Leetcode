@@ -1,32 +1,29 @@
 class Solution {
     public String minWindow(String s, String t) {
-        Map<Character,Integer> smap = new HashMap<>();
-        Map<Character,Integer> tmap = new HashMap<>();
+        Map<Character,Integer> freqMap = new HashMap<>();
         for(char c: t.toCharArray()){
-            tmap.put(c,tmap.getOrDefault(c,0)+1);
+            freqMap.put(c,freqMap.getOrDefault(c,0)+1);
         }
-
+        int req = freqMap.size();
         int l = 0;
         int count = 0;
-        int[] resLen = {-1,-1};
-        int currLen = 0;
-        int minLen = Integer.MAX_VALUE;
+        int len = Integer.MAX_VALUE; 
+        int startIndx = 0;
         for(int r = 0;r<s.length();r++){
-            smap.put(s.charAt(r),smap.getOrDefault(s.charAt(r),0)+1);
-            if(tmap.containsKey(s.charAt(r)) && tmap.get(s.charAt(r)).equals(smap.get(s.charAt(r)))) count++;
-            while(count == tmap.size()){    //We have a valid window
-                currLen = r-l+1;
-                if(currLen < minLen){
-                    minLen = currLen;
-                    resLen[0] = l;
-                    resLen[1] = r;
+            if(freqMap.containsKey(s.charAt(r)) && freqMap.get(s.charAt(r)).equals(1)) count++;
+            freqMap.put(s.charAt(r),freqMap.getOrDefault(s.charAt(r),0)-1);
+            
+            while(count == req){
+                if(r-l+1<len) {
+                    len = r-l+1;
+                    startIndx = l;
                 }
-                smap.put(s.charAt(l),smap.getOrDefault(s.charAt(l),0)-1);
-                if(tmap.containsKey(s.charAt(l)) && tmap.get(s.charAt(l))>smap.get(s.charAt(l))) count--;
+                freqMap.put(s.charAt(l),freqMap.getOrDefault(s.charAt(l),0)+1);
+                if(freqMap.containsKey(s.charAt(l)) && freqMap.get(s.charAt(l))>0) count--;
                 l++;
-            }  
+            }
         }
-        if(minLen == Integer.MAX_VALUE) return "";
-        else return s.substring(resLen[0],resLen[1]+1);
+        if(len == Integer.MAX_VALUE) return "";
+        else return s.substring(startIndx,startIndx+len);
     }
 }
