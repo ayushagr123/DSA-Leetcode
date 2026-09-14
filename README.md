@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0141-linked-list-cycle) |
+| [0143-reorder-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0283-move-zeroes) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0143-reorder-list) |
 | [1021-remove-outermost-parentheses](https://github.com/ayushagr123/DSA-Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Bracket Sequences
 |  |
@@ -217,12 +219,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0141-linked-list-cycle) |
+| [0143-reorder-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
