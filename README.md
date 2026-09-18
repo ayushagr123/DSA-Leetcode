@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0229-majority-element-ii) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
@@ -248,4 +250,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
