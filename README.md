@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0704-binary-search) |
+| [0739-daily-temperatures](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0739-daily-temperatures) |
 | [0875-koko-eating-bananas](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/ayushagr123/DSA-Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/ayushagr123/DSA-Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0739-daily-temperatures) |
 | [1021-remove-outermost-parentheses](https://github.com/ayushagr123/DSA-Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Bracket Sequences
 |  |
@@ -279,4 +281,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
