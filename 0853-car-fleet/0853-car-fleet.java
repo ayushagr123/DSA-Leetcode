@@ -7,17 +7,16 @@ class Solution {
             sequence[i][1] = speed[i];
         }
         Arrays.sort(sequence , (a,b) -> Integer.compare(a[0],b[0]));
-        double[] time = new double[n];
-        for(int i = 0;i<n;i++){
-            time[i] = (double)(target - sequence[i][0])/(double) sequence[i][1];
-        }
-        Stack<Integer> st = new Stack<>();
+        int fleet = 0;
+        double currTime;
+        double prevFleetTime = 0;
         for(int i = n-1;i>=0;i--){
-            while(i>=0 && !st.isEmpty() && time[i]<=time[st.peek()]) {
-                i--;
+            currTime = (double)(target - sequence[i][0])/(double) sequence[i][1];
+            if(currTime>prevFleetTime){
+                fleet++;
+                prevFleetTime = currTime;
             }
-            if(i>=0) st.push(i);
         }
-        return st.size();
+        return fleet;
     }
 }
