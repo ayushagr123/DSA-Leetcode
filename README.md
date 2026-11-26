@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0088-merge-sorted-array) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Hash Table
@@ -311,4 +313,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ayushagr123/DSA-Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
